@@ -21,8 +21,10 @@ var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-// Import routes and give the server access to them.
-var routes = require("./controllers/bugsController.js");
+// Routes =============================================================
+require("./routes/author-api-routes.js")(app);
+require("./routes/html-routes.js")(app);
+require("./routes-/post-api-routes.js")(app);
 
 app.use("/", routes);
 
