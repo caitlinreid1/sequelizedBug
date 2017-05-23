@@ -3,7 +3,7 @@
     "username": "root",
     "password": "",
     "database": "bugs_db",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
+    "username": "rgd7wcyi9ye57ae1",
+    "password": "zhvoz3wkpccehkbi",
     "database": "database_production",
-    "host": "127.0.0.1",
+    "host": "hngomrlb3vfq3jcr.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
 }
