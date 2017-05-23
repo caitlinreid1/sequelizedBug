@@ -1,6 +1,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
+var sequelize = require("sequelize");
 
 // var port = 3000;
 var port = process.env.port || 3000;
